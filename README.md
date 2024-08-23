@@ -44,3 +44,18 @@ The functions of the files are described below:
 7) result example: some examples of predictions are given in example_results.csv
 8) the trained model is in ./trained_model
 9) data used for training is in ./data: not uploaded cause it's too large
+
+# usage:
+first run data_gen.ipynb to generate raw_training_data.csv
+then run pre_process.ipynb to get ./data
+then run training.ipynb to train model
+finally run result.ipynb for some results
+
+# environment:
+python==3.8.0
+Faker==27.0.0
+gensim==4.3.3
+numpy==1.24.4
+scipy==1.10.1
+sklean==1.3.2
+torch==2.2.2
